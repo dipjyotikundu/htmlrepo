@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Pizza Order Portal</title>
+</head>
+<body background="pizz.jpg">
+    <header>
+        <h1>
+            <center>
+                <font color="Red">Pizza</font>
+                <font color="Blue">Paradise</font>
+            </center>
+        </h1>
+        <h2>
+            <p align="center"><a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;
+                <a href="Menu1.html">Menu</a>&nbsp;&nbsp;&nbsp;
+                <a href="About.html">About</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">Order Pizza</a>&nbsp;&nbsp;&nbsp;
+                <a href="login.html">Login</a>
+            </p>
+        </h2>
+        <h3>
+            <marquee behavior="" direction="Right">Open From 10am to 6pm</marquee>
+        </h3>
+
+    </header>
+    <hr color="red" size="2" width="85%">
+
+ <h3>  <form align="center">
+        <caption><b><big><u>Super Awesome Pizza Ordering System</u></big></b></caption><br><br>
+        <table align="center" cellpadding="10px" cellspacing="10px"  border="2px" width="1000">
+            <tr>
+                <td><label for="cname">Customer Name:</label></td>
+             <td><input type="text" id="cname" name="customername" placeholder="Enter Your Name"></td>
+            </tr>
+            <tr>
+                <td><label for="adrs">Address:</label></td>
+                <td><input type="text" id="adrs" name="address" placeholder="Enter Your Address"></td>
+            </tr>
+            <tr>
+                <td><label for="pizza"><u>Pizza Type</u></label></td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="mar"><img src="Pictures/Pizza/pizzamargherita.jpg" height="100px" width="100px"></label> <br>
+                    <input type="radio" id="mar" name="pizza" value="margherita">Margherita
+                </td>
+                <td>
+                   <label for="fri"> <img src="Pictures/Pizza/pizzafritta.jpg" height="100px" width="100px"></label><br>
+                    <input type="radio" id="fri" name="pizza" value="fritta">Fritta
+                </td>
+                <td>
+                    <label for="qua"> <img src="Pictures/Pizza/pizzaQuattroStagioni.jpg" height="100px" width="100px"></label><br>
+                    <input type="radio" id="qua" name="pizza" value="quattrostagioni">Quattrostagioni
+                </td>
+                <td>
+                    <label for="che"><img src="Pictures/Pizza/pizzacheese.jpg" height="100px" width="100px"></label><br>
+                    <input type="radio" id="che" name="pizza" value="cheese">Cheese
+                </td>
+                
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="extratoppings"><u>Extra Toppings</u></label><br><br>
+                    <input type="checkbox" id="eto" name="extratoppings" value="Olives">&nbsp;Olives<br>
+                    <input type="checkbox" id="etm" name="extratoppings" value="Mushrooms">&nbsp;Mushrooms<br>
+                    <input type="checkbox" id="eta" name="extratoppings" value="Anchiovies">&nbsp;Anchiovies<br>
+                    <input type="checkbox" id="etc" name="extratoppings" value="Chillies">&nbsp;Chillies<br>
+                </td>
+                <td>
+                    <label for="sreq"><u>Special Requests</u></label><br><br>
+                    <textarea rows="5" cols="20" id="sreq" name="specialrequests" placeholder="Enter Your Special Requests"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pno"><u>No of Pizzas</u></label><br><br>
+                    <input type="number" id="pno" name="noofpizza" min="1">
+                </td>
+                <td>
+                    <input type="button" value="Calculate"><br><br>
+                    <input type="reset">
+                </td>
+                <td>
+                    <label><u>Total Price:</u></label><br><br>
+                    <input type="button" value="Complete Order">
+                </td>
+                <td>
+                    <label><i>To Exit Press This:</i></label><br><br>
+                    <input type="button" value="Exit">
+                </td>
+            </tr>
+        </table>
+    </form></h3>
+    <br>
+    <hr color="blue" size="2" width="85%">
+    <footer>
+
+        <h1>
+            <center>
+                <font color="Blue">Powered </font>
+                <font>By </font>
+                <font color="Red">Pizza</font><br>
+                <hr color="red" size="1" width="15%">
+                <font color="Red">To </font>
+                <font color="blue">Order</font>
+                <font color="blue">Cheesy</font>
+                <font color="red">Bite -</font>
+                <font color="blue">100-2245-2334</font>
+            </center>
+        </h1>
+    </footer>
+</body>
+</html>
