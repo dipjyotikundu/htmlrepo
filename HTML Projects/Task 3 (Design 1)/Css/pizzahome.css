@@ -1,0 +1,55 @@
+header {
+  background-color: #5fc86f;
+  border: 3px solid #2b8e3a;
+  padding: 10px;
+
+}
+
+#p1 {
+  background-color: #95e0a0;
+  text-align: center;
+  font-family: calibri;
+}
+
+a {
+  text-decoration: none;
+  color: #22592b;
+}
+
+a:hover {
+  color: #e1f7e3;
+}
+
+#dt {
+
+  text-align: center;
+  font-family: bradley hand itc;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0b2811;
+  border: 2px dashed #2b8e3a;
+}
+
+footer {
+  background-color: #5fc86f;
+  border: 3px solid #2b8e3a;
+  padding: 10px;
+}
+
+.myclass1 {
+  font-family: autumn chant;
+  text-align: center;
+  font-weight: 35px;
+  background-color: #95e0a0;
+}
+
+#p2 {
+  text-align: center;
+  font-family: calibri;
+}
+
+#h12 {
+  font-family: calibri;
+  text-align: center;
+  background-color: #95e0a0;
+}
